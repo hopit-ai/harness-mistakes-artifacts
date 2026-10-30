@@ -1,0 +1,9 @@
+{
+ "about": "SHA-256 of the figure PNGs in the paper's arXiv source (figures/). The scripts in figures/ rebuild them byte-identically with matplotlib 3.10.8; other matplotlib versions may differ in bytes but not in content.",
+ "matplotlib": "3.10.8",
+ "figures": {
+  "fig1.png": {"paper_label": "1", "script": "make_fig1.py", "sha256": "20e2f4aa3f568e0a7da378a9b86c6de27d3da488493caf5dd621292a0e7ccc10"},
+  "fig3.png": {"paper_label": "2", "script": "make_fig3.py", "sha256": "0ca59822b7d519cd24cc05a38a3dd946ae5b5a5d96026319a1674a40871a3b00"},
+  "fig2.png": {"paper_label": "J1", "script": "make_fig2.py", "sha256": "775d5669df07511e6c0ce18dd0d38af68c42054c0846f4cfd1f8f12863aa12b7"}
+ }
+}

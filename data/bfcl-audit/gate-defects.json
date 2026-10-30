@@ -1,0 +1,1806 @@
+{
+ "arguable": [
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_base_102",
+   "root": 102,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_base_130",
+   "root": 130,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_base_132",
+   "root": 132,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FP"
+   ],
+   "failing_turn": 0,
+   "family": "travel",
+   "instance": "multi_turn_base_150",
+   "root": 150,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_base_71",
+   "root": 71,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_long_context_102",
+   "root": 102,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_long_context_130",
+   "root": 130,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_long_context_132",
+   "root": 132,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_71",
+   "root": 71,
+   "score_changing": "yes",
+   "severity": "arguable"
+  }
+ ],
+ "defects": [
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_base_103",
+   "root": 103,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 2,
+   "family": "files",
+   "instance": "multi_turn_base_12",
+   "root": 12,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_base_123",
+   "root": 123,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "files",
+   "instance": "multi_turn_base_14",
+   "root": 14,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_base_141",
+   "root": 141,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_base_146",
+   "root": 146,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 1,
+   "family": "travel",
+   "instance": "multi_turn_base_152",
+   "root": 152,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "IMP"
+   ],
+   "failing_turn": 3,
+   "family": "travel",
+   "instance": "multi_turn_base_162",
+   "root": 162,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 4,
+   "family": "travel",
+   "instance": "multi_turn_base_168",
+   "root": 168,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 2,
+   "family": "travel",
+   "instance": "multi_turn_base_195",
+   "root": 195,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 4,
+   "family": "travel",
+   "instance": "multi_turn_base_199",
+   "root": 199,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_base_24",
+   "root": 24,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 2,
+   "family": "files",
+   "instance": "multi_turn_base_39",
+   "root": 39,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_base_45",
+   "root": 45,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "vehicle",
+   "instance": "multi_turn_base_52",
+   "root": 52,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "files",
+   "instance": "multi_turn_base_7",
+   "root": 7,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_base_72",
+   "root": 72,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "vehicle",
+   "instance": "multi_turn_base_78",
+   "root": 78,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_base_81",
+   "root": 81,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_base_95",
+   "root": 95,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_long_context_103",
+   "root": 103,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 2,
+   "family": "files",
+   "instance": "multi_turn_long_context_12",
+   "root": 12,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_long_context_123",
+   "root": 123,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "files",
+   "instance": "multi_turn_long_context_14",
+   "root": 14,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_long_context_141",
+   "root": 141,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_long_context_146",
+   "root": 146,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FP",
+    "IMP"
+   ],
+   "failing_turn": 0,
+   "family": "travel",
+   "instance": "multi_turn_long_context_150",
+   "root": 150,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "IMP"
+   ],
+   "failing_turn": 0,
+   "family": "travel",
+   "instance": "multi_turn_long_context_151",
+   "root": 151,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 1,
+   "family": "travel",
+   "instance": "multi_turn_long_context_152",
+   "root": 152,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "IMP"
+   ],
+   "failing_turn": 3,
+   "family": "travel",
+   "instance": "multi_turn_long_context_162",
+   "root": 162,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 4,
+   "family": "travel",
+   "instance": "multi_turn_long_context_168",
+   "root": 168,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 2,
+   "family": "travel",
+   "instance": "multi_turn_long_context_195",
+   "root": 195,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 4,
+   "family": "travel",
+   "instance": "multi_turn_long_context_199",
+   "root": 199,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_long_context_24",
+   "root": 24,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 2,
+   "family": "files",
+   "instance": "multi_turn_long_context_39",
+   "root": 39,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_long_context_45",
+   "root": 45,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_52",
+   "root": 52,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "files",
+   "instance": "multi_turn_long_context_7",
+   "root": 7,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_72",
+   "root": 72,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_78",
+   "root": 78,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_long_context_81",
+   "root": 81,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_95",
+   "root": 95,
+   "score_changing": "yes",
+   "severity": "clear"
+  }
+ ],
+ "descriptive_extra": [
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "files",
+   "instance": "multi_turn_base_23",
+   "rationale": "Owner: copying an existing identical file instead of creating it is not a natural response; no score-changing defect (descriptive extra).",
+   "role": "descriptive-extra",
+   "root": 23,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": null,
+   "family": "files",
+   "instance": "multi_turn_long_context_23",
+   "role": "descriptive-extra",
+   "root": 23,
+   "score_changing": "no",
+   "severity": null
+  }
+ ],
+ "frozen_utc": "2026-10-21T15:25:04+00:00",
+ "inputs_sha256": {
+  "OWNER.jsonl": "32d62d7aa48220350fc545f47fa00e25e1502c3f669d7ea7b8792ee6e81c706c",
+  "reviewer-A01.md": "fe2e05d614966c90847686c0793b6b16cb7f27adbbc594ab3e056c5990f0612a",
+  "reviewer-A02.md": "4834f28e83a4edaed7af078987ebddd6a64b9f1d7855a53a13583bec9ac23c34",
+  "reviewer-A03.md": "377f03335892ec8529ba73710cdbeefa1302b7c9d1d7ecc46d3f3b7f689d493b",
+  "reviewer-A04.md": "aeecf2eac998a3da4984f6bd4b430a3283b2bc9a01b1535d62ae27e5d8fb1f5e",
+  "reviewer-A05.md": "31e38f9ff623a88d2db7bea4636adb05c50a871a46d8b5f4891a9daa308478b7",
+  "reviewer-A06.md": "d06c1aec0b28c3f005b935f4922d71abdaabd16dfac5cc5d71d31b43e579c02e",
+  "reviewer-A07.md": "4b7df2b123cf3cd5887672ed10f9833657cbba89e57b0814b59a9ce9f9b92a7d",
+  "reviewer-A08.md": "38ca9d5f803817f3291cafe8d21cee82acbfefdbbe9bcc896c80ea506e8387f6",
+  "reviewer-B01.md": "731dabc9a30cfd105f2b5630cefa75bc7ff13b0321cbb5128b447d165e97a919",
+  "reviewer-B02.md": "8eea71455b00f25c0ae845818ec89e826afd886a4f6c35b77f1a2355ddd83b01",
+  "reviewer-B03.md": "94ff58b8b3e7daf609cd56504377d460e51329ede35ab3e68896a0757b9e2791",
+  "reviewer-B04.md": "a71a66dcc28d5e311808c4e478dd3e256dbfd3c0cc4da1505d139d32cf86dba3",
+  "reviewer-B05.md": "8b53063e85f76043f8376050a2005e9c021e280c5c858dc64785e7cff4d8701b",
+  "reviewer-B06.md": "d9622fa5660fc8be2c8630860720128067e0fb0499f503ab55414b004d2c1e98",
+  "reviewer-B07.md": "7d40c624e138b731bafbff0bf2a258fc903320047d4e36ae8c09ead56ced3b5f",
+  "reviewer-B08.md": "b42c39170981848c30efffbb725a00f8679d8fae65b4c89190ca718997f569f9"
+ },
+ "labels": [
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "files",
+   "instance": "multi_turn_base_0",
+   "role": "gate",
+   "root": 0,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_base_102",
+   "rationale": "Owner: reviewers split clear/arguable; arguable (conservative; mandatory-call-per-turn rule is BFCL design).",
+   "role": "gate",
+   "root": 102,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_base_103",
+   "rationale": "Owner: both reviewers agree defective/clear; they cite different turns (1 and 4); either suffices.",
+   "role": "gate",
+   "root": 103,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 2,
+   "family": "files",
+   "instance": "multi_turn_base_12",
+   "role": "gate",
+   "root": 12,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_base_123",
+   "role": "gate",
+   "root": 123,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_base_130",
+   "rationale": "Owner: one arguable, one none; arguable, not defective.",
+   "role": "gate",
+   "root": 130,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_base_132",
+   "role": "gate",
+   "root": 132,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "files",
+   "instance": "multi_turn_base_14",
+   "role": "gate",
+   "root": 14,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_base_141",
+   "role": "gate",
+   "root": 141,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_base_146",
+   "role": "gate",
+   "root": 146,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FP"
+   ],
+   "failing_turn": 0,
+   "family": "travel",
+   "instance": "multi_turn_base_150",
+   "rationale": "Owner: date is not verified by pricing, but the triggering mistake is not a common one; arguable, not defective.",
+   "role": "gate",
+   "root": 150,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "travel",
+   "instance": "multi_turn_base_151",
+   "role": "gate",
+   "root": 151,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 1,
+   "family": "travel",
+   "instance": "multi_turn_base_152",
+   "rationale": "Owner: both agree defective/clear (IMP/FN wording differs).",
+   "role": "gate",
+   "root": 152,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "IMP"
+   ],
+   "failing_turn": 3,
+   "family": "travel",
+   "instance": "multi_turn_base_162",
+   "role": "gate",
+   "root": 162,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "travel",
+   "instance": "multi_turn_base_167",
+   "role": "gate",
+   "root": 167,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 4,
+   "family": "travel",
+   "instance": "multi_turn_base_168",
+   "role": "gate",
+   "root": 168,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 2,
+   "family": "travel",
+   "instance": "multi_turn_base_195",
+   "rationale": "Owner: both agree defective/clear.",
+   "role": "gate",
+   "root": 195,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 4,
+   "family": "travel",
+   "instance": "multi_turn_base_199",
+   "role": "gate",
+   "root": 199,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "files",
+   "instance": "multi_turn_base_23",
+   "rationale": "Owner: copying an existing identical file instead of creating it is not a natural response; no score-changing defect (descriptive extra).",
+   "role": "descriptive-extra",
+   "root": 23,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_base_24",
+   "role": "gate",
+   "root": 24,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 2,
+   "family": "files",
+   "instance": "multi_turn_base_39",
+   "rationale": "Owner: both agree defective/clear (turns 2 vs 3).",
+   "role": "gate",
+   "root": 39,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "files",
+   "instance": "multi_turn_base_42",
+   "role": "gate",
+   "root": 42,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_base_45",
+   "role": "gate",
+   "root": 45,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "vehicle",
+   "instance": "multi_turn_base_52",
+   "rationale": "Owner: both agree defective/clear (turns 0 vs 1).",
+   "role": "gate",
+   "root": 52,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "files",
+   "instance": "multi_turn_base_7",
+   "role": "gate",
+   "root": 7,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_base_71",
+   "role": "gate",
+   "root": 71,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_base_72",
+   "role": "gate",
+   "root": 72,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "vehicle",
+   "instance": "multi_turn_base_78",
+   "role": "gate",
+   "root": 78,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_base_81",
+   "rationale": "Owner: both agree defective/clear (turns 0 vs 3).",
+   "role": "gate",
+   "root": 81,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "vehicle",
+   "instance": "multi_turn_base_91",
+   "role": "gate",
+   "root": 91,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "base",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_base_95",
+   "role": "gate",
+   "root": 95,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "files",
+   "instance": "multi_turn_long_context_0",
+   "role": "gate",
+   "root": 0,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_long_context_102",
+   "rationale": "Owner: reviewers split clear/arguable; arguable (conservative; mandatory-call-per-turn rule is BFCL design).",
+   "role": "gate",
+   "root": 102,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_long_context_103",
+   "rationale": "Owner: both reviewers agree defective/clear; they cite different turns (1 and 4); either suffices.",
+   "role": "gate",
+   "root": 103,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 2,
+   "family": "files",
+   "instance": "multi_turn_long_context_12",
+   "role": "gate",
+   "root": 12,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_long_context_123",
+   "role": "gate",
+   "root": 123,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_long_context_130",
+   "rationale": "Owner: one arguable, one none; arguable, not defective.",
+   "role": "gate",
+   "root": 130,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 1,
+   "family": "finance",
+   "instance": "multi_turn_long_context_132",
+   "role": "gate",
+   "root": 132,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "files",
+   "instance": "multi_turn_long_context_14",
+   "role": "gate",
+   "root": 14,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_long_context_141",
+   "role": "gate",
+   "root": 141,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "finance",
+   "instance": "multi_turn_long_context_146",
+   "role": "gate",
+   "root": 146,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FP",
+    "IMP"
+   ],
+   "failing_turn": 0,
+   "family": "travel",
+   "instance": "multi_turn_long_context_150",
+   "rationale": "Owner: both reviewers agree defective/clear in long context (classes differ).",
+   "role": "gate",
+   "root": 150,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "IMP"
+   ],
+   "failing_turn": 0,
+   "family": "travel",
+   "instance": "multi_turn_long_context_151",
+   "role": "gate",
+   "root": 151,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 1,
+   "family": "travel",
+   "instance": "multi_turn_long_context_152",
+   "rationale": "Owner: both agree defective/clear (IMP/FN wording differs).",
+   "role": "gate",
+   "root": 152,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "IMP"
+   ],
+   "failing_turn": 3,
+   "family": "travel",
+   "instance": "multi_turn_long_context_162",
+   "role": "gate",
+   "root": 162,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "travel",
+   "instance": "multi_turn_long_context_167",
+   "role": "gate",
+   "root": 167,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 4,
+   "family": "travel",
+   "instance": "multi_turn_long_context_168",
+   "role": "gate",
+   "root": 168,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN",
+    "IMP"
+   ],
+   "failing_turn": 2,
+   "family": "travel",
+   "instance": "multi_turn_long_context_195",
+   "rationale": "Owner: both agree defective/clear.",
+   "role": "gate",
+   "root": 195,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 4,
+   "family": "travel",
+   "instance": "multi_turn_long_context_199",
+   "role": "gate",
+   "root": 199,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": null,
+   "family": "files",
+   "instance": "multi_turn_long_context_23",
+   "role": "descriptive-extra",
+   "root": 23,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_long_context_24",
+   "role": "gate",
+   "root": 24,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 2,
+   "family": "files",
+   "instance": "multi_turn_long_context_39",
+   "rationale": "Owner: both agree defective/clear (turns 2 vs 3).",
+   "role": "gate",
+   "root": 39,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "files",
+   "instance": "multi_turn_long_context_42",
+   "role": "gate",
+   "root": 42,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_long_context_45",
+   "role": "gate",
+   "root": 45,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_52",
+   "rationale": "Owner: both agree defective/clear (turns 0 vs 1).",
+   "role": "gate",
+   "root": 52,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 1,
+   "family": "files",
+   "instance": "multi_turn_long_context_7",
+   "role": "gate",
+   "root": 7,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_71",
+   "role": "gate",
+   "root": 71,
+   "score_changing": "yes",
+   "severity": "arguable"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_72",
+   "role": "gate",
+   "root": 72,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_78",
+   "role": "gate",
+   "root": 78,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "owner",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 0,
+   "family": "files",
+   "instance": "multi_turn_long_context_81",
+   "rationale": "Owner: both agree defective/clear (turns 0 vs 3).",
+   "role": "gate",
+   "root": 81,
+   "score_changing": "yes",
+   "severity": "clear"
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "none"
+   ],
+   "failing_turn": null,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_91",
+   "role": "gate",
+   "root": 91,
+   "score_changing": "no",
+   "severity": null
+  },
+  {
+   "category": "long_context",
+   "decided_by": "agreed",
+   "defect_classes": [
+    "FN"
+   ],
+   "failing_turn": 3,
+   "family": "vehicle",
+   "instance": "multi_turn_long_context_95",
+   "role": "gate",
+   "root": 95,
+   "score_changing": "yes",
+   "severity": "clear"
+  }
+ ],
+ "packets_manifest_sha256": "62a1c8c6be202a20cf48934827fb99a02eeadc70f5bfdc68f22b1448ef1d32fc",
+ "part": "gate",
+ "plan_id": "xp-bfcl-audit-v1",
+ "round": "r2",
+ "rubric": "v2",
+ "schema": "xp-bfcl-audit-v1",
+ "splits_sha256": "5fee084c7c405891870c6be0ac3feda4674c8fa65e13b7ee16b2bbb22e48b74c",
+ "summary": {
+  "agreement": {
+   "defective_A": 46,
+   "defective_B": 42,
+   "kappa_defective": 0.8442211055276381,
+   "kappa_score_changing": 0.7947019867549666,
+   "n_both_valid": 62,
+   "n_instances": 62,
+   "raw_agreement_defective": 0.9354838709677419,
+   "raw_agreement_full_label": 0.6935483870967742,
+   "raw_agreement_score_changing": 0.9354838709677419,
+   "rubric": "v2",
+   "yes_A": 52,
+   "yes_B": 48
+  },
+  "arguable_descriptive": {
+   "defective": 9,
+   "n": 60,
+   "rate": 0.15,
+   "wilson95": [
+    0.081,
+    0.2611
+   ]
+  },
+  "definition": "defective = score_changing yes AND severity clear (rubric v2)",
+  "epoch_multi_turn": {
+   "defective": 8,
+   "n": 15,
+   "note": "Epoch's 15 sampled multi-turn items over all four multi-turn categories; not our subset",
+   "rate": 0.5333333333333333,
+   "source": "https://epoch.ai/benchmarks/berkeley-function-calling-leaderboard/review",
+   "wilson95": [
+    0.3012,
+    0.7519
+   ]
+  },
+  "n_escalated": 19,
+  "n_owner_decided": 19,
+  "overall": {
+   "defective": 42,
+   "n": 60,
+   "rate": 0.7,
+   "wilson95": [
+    0.5749,
+    0.801
+   ]
+  },
+  "per_category": {
+   "base": {
+    "defective": 20,
+    "n": 30,
+    "rate": 0.6666666666666666,
+    "wilson95": [
+     0.4878,
+     0.8077
+    ]
+   },
+   "long_context": {
+    "defective": 22,
+    "n": 30,
+    "rate": 0.7333333333333333,
+    "wilson95": [
+     0.5555,
+     0.8582
+    ]
+   }
+  },
+  "per_family": {
+   "files": {
+    "defective": 14,
+    "n": 18,
+    "rate": 0.7777777777777778,
+    "wilson95": [
+     0.5479,
+     0.91
+    ]
+   },
+   "finance": {
+    "defective": 8,
+    "n": 14,
+    "rate": 0.5714285714285714,
+    "wilson95": [
+     0.3259,
+     0.7862
+    ]
+   },
+   "travel": {
+    "defective": 12,
+    "n": 16,
+    "rate": 0.75,
+    "wilson95": [
+     0.505,
+     0.8982
+    ]
+   },
+   "vehicle": {
+    "defective": 8,
+    "n": 12,
+    "rate": 0.6666666666666666,
+    "wilson95": [
+     0.3906,
+     0.8619
+    ]
+   }
+  },
+  "roots_with_both_instances_defective": [
+   7,
+   12,
+   14,
+   24,
+   39,
+   45,
+   52,
+   72,
+   78,
+   81,
+   95,
+   103,
+   123,
+   141,
+   146,
+   152,
+   162,
+   168,
+   195,
+   199
+  ],
+  "score_changing_any_severity": {
+   "defective": 51,
+   "n": 60,
+   "rate": 0.85,
+   "wilson95": [
+    0.7389,
+    0.919
+   ]
+  }
+ },
+ "superseded_rounds": [
+  {
+   "agreement": {
+    "kappa_score_changing": -0.03333333333333665,
+    "n_both_valid": 62,
+    "n_instances": 62,
+    "raw_agreement_full_label": 0.7419354838709677,
+    "raw_agreement_score_changing": 0.9354838709677419,
+    "yes_A": 60,
+    "yes_B": 60
+   },
+   "collected_sha256": "e8302cc9f4417073225f863791808b523d107060e61ede588b5e66e8d74ea8a0",
+   "dir": "gate",
+   "manifest_sha256": "9d29a3ad9bfe4dc51c757ec5a6ab22bf7b1997e11de8b194f13d9aec9ed85b7c",
+   "n_escalated": 16,
+   "results_sha256": {
+    "reviewer-A01.md": "29e680e28aaa576ed0a54723f8e81e175ce4c7df1f79d8cc7c0f57c7f4d7f41f",
+    "reviewer-A02.md": "46cb61306f41045533a02ad9875366e5d1f1e0b0489dbad6f7c4650f325c297b",
+    "reviewer-A03.md": "2ba991f8b835861fafe34b0a89e03972a0ad87f565e7add78524959770ee55b3",
+    "reviewer-A04.md": "4c0debc001660e229d0d5ba9f619d4ae0263909aa01c724730d9769e9277e631",
+    "reviewer-A05.md": "0f9f3be08f8aabaee761cd26926115aa511039d4956a12318a6ef88774f2a290",
+    "reviewer-A06.md": "73a5fab06eeef0488b39ee942b45eb43979c32e2d50ce9cbb2c0937fe7d3946f",
+    "reviewer-A07.md": "0a02f9e9606963356e8211a27626a80246378bcb6214d8a29efb63d8e9e65d4c",
+    "reviewer-A08.md": "5a25d6ab9f16209549c463ca6f1979012ec9404703edee3a8aa54a40bedaa053",
+    "reviewer-B01.md": "4942723e6664f3787aeda2380290ea0c628ac38dad98ab73f4df7164a7196915",
+    "reviewer-B02.md": "9a207729c204983e8495376373a6f0a25e821fb43ddceeb5e48371a4ca70b980",
+    "reviewer-B03.md": "3697fb228e42dbf803c1a31cde7e02d113e2b9a21b6aca72e3c66f37a142f7af",
+    "reviewer-B04.md": "e0ba9e28d766ceb5e4f318eac9fd3cd2bec416abcd1075462cfa3b83637fc8a9",
+    "reviewer-B05.md": "2ba870fb4df649210c17449aa91f035935c59fc93e89166f97739537d3934440",
+    "reviewer-B06.md": "479030519d48891e9071f248eaf2eda41566739f9844849e87c297057c1b102e",
+    "reviewer-B07.md": "6214e4c9aace0550d73833aa5861e6beb32e65e12b942a65d344cf4237914a86",
+    "reviewer-B08.md": "8e43d2df790e74e22e660cdf074591d946d799ce670ff63bf2ef8fffeb23e65b"
+   },
+   "round": "r1",
+   "rubric": "v1",
+   "status": "superseded (amendment 2026-10-21, docs/xp/bfcl-plan.md \u00a76.4)"
+  }
+ ],
+ "vendor_commit": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8"
+}

@@ -1,0 +1,732 @@
+{
+ "schema": "xp-bfcl-fprime-report-v1",
+ "pool": "U",
+ "pool_sha256": "03c07bee06715bda7c826c879b7f940ee3789d15606ed6215bf1511d50e116d7",
+ "rows": 1980,
+ "instances": 60,
+ "contexts": [
+  "files",
+  "finance",
+  "travel",
+  "vehicle"
+ ],
+ "anchors": {
+  "files": {
+   "n": 18,
+   "success": 0.6111111111111112
+  },
+  "finance": {
+   "n": 14,
+   "success": 1.0
+  },
+  "travel": {
+   "n": 16,
+   "success": 0.3125
+  },
+  "vehicle": {
+   "n": 12,
+   "success": 0.3333333333333333
+  }
+ },
+ "error_rows": 0,
+ "s_b": 0.20361990950226244,
+ "eb_grid": [
+  {
+   "s_a": 1.0,
+   "tau_mult": 0.25,
+   "log_ml": -762.5524394429098
+  },
+  {
+   "s_a": 1.0,
+   "tau_mult": 0.5,
+   "log_ml": -762.5007710533336
+  },
+  {
+   "s_a": 1.0,
+   "tau_mult": 1.0,
+   "log_ml": -763.008779327505
+  },
+  {
+   "s_a": 2.0,
+   "tau_mult": 0.25,
+   "log_ml": -722.2890214411684
+  },
+  {
+   "s_a": 2.0,
+   "tau_mult": 0.5,
+   "log_ml": -722.0558153992067
+  },
+  {
+   "s_a": 2.0,
+   "tau_mult": 1.0,
+   "log_ml": -721.9412746678529
+  },
+  {
+   "s_a": 3.0,
+   "tau_mult": 0.25,
+   "log_ml": -718.550517356115
+  },
+  {
+   "s_a": 3.0,
+   "tau_mult": 0.5,
+   "log_ml": -718.2672040734284
+  },
+  {
+   "s_a": 3.0,
+   "tau_mult": 1.0,
+   "log_ml": -717.9722237789239
+  }
+ ],
+ "chosen": {
+  "s_a": 3.0,
+  "tau": 0.20361990950226244
+ },
+ "gate": {
+  "lessons": [
+   {
+    "id": "U01",
+    "intent": "bfcl",
+    "rd_mean": -0.0065771532381703616,
+    "rd_ci90": [
+     -0.028355382051283465,
+     0.014831062298962855
+    ],
+    "p_rd_gt_delta": 0.096,
+    "p_rd_gt_0": 0.298,
+    "rd_by_context": {
+     "files": {
+      "mean": 0.0025397441866880205,
+      "ci90": [
+       -0.033613900343686005,
+       0.039939098872980645
+      ],
+      "exposure": 288
+     },
+     "finance": {
+      "mean": 0.009248686294308828,
+      "ci90": [
+       -0.01185251194801507,
+       0.031267614122344675
+      ],
+      "exposure": 224
+     },
+     "travel": {
+      "mean": -0.011992405997284418,
+      "ci90": [
+       -0.04587540775416228,
+       0.021168141051735367
+      ],
+      "exposure": 256
+     },
+     "vehicle": {
+      "mean": -0.026104637436393872,
+      "ci90": [
+       -0.061242428004137296,
+       0.008112372072475397
+      ],
+      "exposure": 192
+     }
+    },
+    "p_context_harm": {
+     "files": 0.292,
+     "finance": 0.066,
+     "travel": 0.527,
+     "vehicle": 0.798
+    },
+    "max_p_context_harm": 0.798,
+    "min_p_context_above_bound": null,
+    "harm_rd_mean": 0.014653647819117035,
+    "harm_rd_ci90": [
+     -0.007316713365252552,
+     0.03504617484614085
+    ],
+    "p_harm_gt_delta": 0.636,
+    "p_harm_lt_bound": 0.771,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": false
+    },
+    "passes": false,
+    "passes_by_prior": {
+     "single": false
+    },
+    "sequencing_ok": false
+   },
+   {
+    "id": "U02",
+    "intent": "bfcl",
+    "rd_mean": 0.014463397673474767,
+    "rd_ci90": [
+     -0.007848823107901711,
+     0.03607023222058605
+    ],
+    "p_rd_gt_delta": 0.647,
+    "p_rd_gt_0": 0.855,
+    "rd_by_context": {
+     "files": {
+      "mean": 0.01279810474415488,
+      "ci90": [
+       -0.022993422881955508,
+       0.049420780910437466
+      ],
+      "exposure": 288
+     },
+     "finance": {
+      "mean": 0.017103026900003922,
+      "ci90": [
+       -0.006914261598900475,
+       0.04201625848087735
+      ],
+      "exposure": 224
+     },
+     "travel": {
+      "mean": 0.015836932069924786,
+      "ci90": [
+       -0.018600687649025154,
+       0.049437464220459186
+      ],
+      "exposure": 256
+     },
+     "vehicle": {
+      "mean": 0.012115526979815478,
+      "ci90": [
+       -0.02156936127013377,
+       0.046537807956565036
+      ],
+      "exposure": 192
+     }
+    },
+    "p_context_harm": {
+     "files": 0.156,
+     "finance": 0.026,
+     "travel": 0.111,
+     "vehicle": 0.146
+    },
+    "max_p_context_harm": 0.156,
+    "min_p_context_above_bound": null,
+    "harm_rd_mean": -0.020558438449273284,
+    "harm_rd_ci90": [
+     -0.04247135721186271,
+     0.0026412842392917325
+    ],
+    "p_harm_gt_delta": 0.01,
+    "p_harm_lt_bound": 1.0,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": true
+    },
+    "passes": false,
+    "passes_by_prior": {
+     "single": false
+    },
+    "sequencing_ok": false
+   },
+   {
+    "id": "U03",
+    "intent": "bfcl",
+    "rd_mean": -0.005627366874209351,
+    "rd_ci90": [
+     -0.027204704714478087,
+     0.014330271238312292
+    ],
+    "p_rd_gt_delta": 0.103,
+    "p_rd_gt_0": 0.328,
+    "rd_by_context": {
+     "files": {
+      "mean": 0.01695685748458662,
+      "ci90": [
+       -0.02309949915525786,
+       0.05566036533867045
+      ],
+      "exposure": 288
+     },
+     "finance": {
+      "mean": -0.009619561910887645,
+      "ci90": [
+       -0.03398124720087215,
+       0.012602968258921111
+      ],
+      "exposure": 224
+     },
+     "travel": {
+      "mean": -0.013353191810588005,
+      "ci90": [
+       -0.044736308689643636,
+       0.019439985399114384
+      ],
+      "exposure": 256
+     },
+     "vehicle": {
+      "mean": -0.016493571259948377,
+      "ci90": [
+       -0.05269312521509105,
+       0.018084588018258487
+      ],
+      "exposure": 192
+     }
+    },
+    "p_context_harm": {
+     "files": 0.126,
+     "finance": 0.486,
+     "travel": 0.565,
+     "vehicle": 0.624
+    },
+    "max_p_context_harm": 0.624,
+    "min_p_context_above_bound": null,
+    "harm_rd_mean": 0.02127606225648973,
+    "harm_rd_ci90": [
+     -0.0007537437593687138,
+     0.04235693343562686
+    ],
+    "p_harm_gt_delta": 0.813,
+    "p_harm_lt_bound": 0.612,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": false
+    },
+    "passes": false,
+    "passes_by_prior": {
+     "single": false
+    },
+    "sequencing_ok": false
+   },
+   {
+    "id": "U04",
+    "intent": "bfcl",
+    "rd_mean": -0.0029873645675745427,
+    "rd_ci90": [
+     -0.02540861813446835,
+     0.018050706277459822
+    ],
+    "p_rd_gt_delta": 0.16,
+    "p_rd_gt_0": 0.417,
+    "rd_by_context": {
+     "files": {
+      "mean": -0.006859264140183239,
+      "ci90": [
+       -0.04789325246460399,
+       0.03188003178027194
+      ],
+      "exposure": 288
+     },
+     "finance": {
+      "mean": -0.0021584481417675555,
+      "ci90": [
+       -0.02613008673946839,
+       0.02045913831516186
+      ],
+      "exposure": 224
+     },
+     "travel": {
+      "mean": 0.002251170431260363,
+      "ci90": [
+       -0.03186790137306467,
+       0.03540930590010134
+      ],
+      "exposure": 256
+     },
+     "vehicle": {
+      "mean": -0.005182916419607739,
+      "ci90": [
+       -0.04000072254649675,
+       0.02863684111016535
+      ],
+      "exposure": 192
+     }
+    },
+    "p_context_harm": {
+     "files": 0.429,
+     "finance": 0.276,
+     "travel": 0.287,
+     "vehicle": 0.404
+    },
+    "max_p_context_harm": 0.429,
+    "min_p_context_above_bound": null,
+    "harm_rd_mean": -0.005945010916815482,
+    "harm_rd_ci90": [
+     -0.02661728858655671,
+     0.01431336157632182
+    ],
+    "p_harm_gt_delta": 0.095,
+    "p_harm_lt_bound": 0.994,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": true
+    },
+    "passes": false,
+    "passes_by_prior": {
+     "single": false
+    },
+    "sequencing_ok": false
+   },
+   {
+    "id": "U05",
+    "intent": "bfcl",
+    "rd_mean": -0.0058009156068379525,
+    "rd_ci90": [
+     -0.027384367237098604,
+     0.014788623459517394
+    ],
+    "p_rd_gt_delta": 0.099,
+    "p_rd_gt_0": 0.324,
+    "rd_by_context": {
+     "files": {
+      "mean": 0.004790494907513433,
+      "ci90": [
+       -0.0328630394271286,
+       0.04370956168165517
+      ],
+      "exposure": 288
+     },
+     "finance": {
+      "mean": -0.012230759101836602,
+      "ci90": [
+       -0.03868495422944808,
+       0.010066787818932344
+      ],
+      "exposure": 224
+     },
+     "travel": {
+      "mean": 0.010392572975849971,
+      "ci90": [
+       -0.021312797161899967,
+       0.04252895863312727
+      ],
+      "exposure": 256
+     },
+     "vehicle": {
+      "mean": -0.026155971208878612,
+      "ci90": [
+       -0.06261348732127338,
+       0.008174524532748742
+      ],
+      "exposure": 192
+     }
+    },
+    "p_context_harm": {
+     "files": 0.273,
+     "finance": 0.547,
+     "travel": 0.141,
+     "vehicle": 0.785
+    },
+    "max_p_context_harm": 0.785,
+    "min_p_context_above_bound": null,
+    "harm_rd_mean": 0.021752482688877674,
+    "harm_rd_ci90": [
+     -9.831594478916868e-05,
+     0.044126746571830015
+    ],
+    "p_harm_gt_delta": 0.829,
+    "p_harm_lt_bound": 0.618,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": false
+    },
+    "passes": false,
+    "passes_by_prior": {
+     "single": false
+    },
+    "sequencing_ok": false
+   },
+   {
+    "id": "U06",
+    "intent": "bfcl",
+    "rd_mean": -0.002349337613717174,
+    "rd_ci90": [
+     -0.023474651060489127,
+     0.01817132397020486
+    ],
+    "p_rd_gt_delta": 0.179,
+    "p_rd_gt_0": 0.425,
+    "rd_by_context": {
+     "files": {
+      "mean": -0.0015187210298047513,
+      "ci90": [
+       -0.04000745618631879,
+       0.03667462449925661
+      ],
+      "exposure": 288
+     },
+     "finance": {
+      "mean": -0.015982121544933732,
+      "ci90": [
+       -0.039753162198977364,
+       0.006455825451384549
+      ],
+      "exposure": 224
+     },
+     "travel": {
+      "mean": 0.007126221206144306,
+      "ci90": [
+       -0.026167835223852926,
+       0.04014685667937566
+      ],
+      "exposure": 256
+     },
+     "vehicle": {
+      "mean": 0.000977270913725484,
+      "ci90": [
+       -0.03132907796126457,
+       0.03361968023310359
+      ],
+      "exposure": 192
+     }
+    },
+    "p_context_harm": {
+     "files": 0.364,
+     "finance": 0.657,
+     "travel": 0.191,
+     "vehicle": 0.285
+    },
+    "max_p_context_harm": 0.657,
+    "min_p_context_above_bound": null,
+    "harm_rd_mean": 0.0032336072191730095,
+    "harm_rd_ci90": [
+     -0.018121305993453365,
+     0.024671890220714362
+    ],
+    "p_harm_gt_delta": 0.303,
+    "p_harm_lt_bound": 0.952,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": false
+    },
+    "passes": false,
+    "passes_by_prior": {
+     "single": false
+    },
+    "sequencing_ok": false
+   },
+   {
+    "id": "U07",
+    "intent": "bfcl",
+    "rd_mean": 0.008559843215843348,
+    "rd_ci90": [
+     -0.012442552737724351,
+     0.03031427261232966
+    ],
+    "p_rd_gt_delta": 0.455,
+    "p_rd_gt_0": 0.747,
+    "rd_by_context": {
+     "files": {
+      "mean": 0.0019648033273277376,
+      "ci90": [
+       -0.03668521508678556,
+       0.041510759556345526
+      ],
+      "exposure": 288
+     },
+     "finance": {
+      "mean": 0.010770476548514448,
+      "ci90": [
+       -0.01226602316447627,
+       0.03374984120306171
+      ],
+      "exposure": 224
+     },
+     "travel": {
+      "mean": 0.01857551864643729,
+      "ci90": [
+       -0.014928601867640017,
+       0.051877709839285704
+      ],
+      "exposure": 256
+     },
+     "vehicle": {
+      "mean": 0.002928574341093915,
+      "ci90": [
+       -0.03069746678052344,
+       0.03866144379319414
+      ],
+      "exposure": 192
+     }
+    },
+    "p_context_harm": {
+     "files": 0.3,
+     "finance": 0.072,
+     "travel": 0.083,
+     "vehicle": 0.259
+    },
+    "max_p_context_harm": 0.3,
+    "min_p_context_above_bound": null,
+    "harm_rd_mean": -0.0005379319721968988,
+    "harm_rd_ci90": [
+     -0.02102552850997348,
+     0.020524970490845812
+    ],
+    "p_harm_gt_delta": 0.198,
+    "p_harm_lt_bound": 0.977,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": true
+    },
+    "passes": false,
+    "passes_by_prior": {
+     "single": false
+    },
+    "sequencing_ok": false
+   },
+   {
+    "id": "U08",
+    "intent": "bfcl",
+    "rd_mean": -0.021431920801947037,
+    "rd_ci90": [
+     -0.04196702550039923,
+     -0.000705199254829241
+    ],
+    "p_rd_gt_delta": 0.007,
+    "p_rd_gt_0": 0.044,
+    "rd_by_context": {
+     "files": {
+      "mean": -0.03390684641965548,
+      "ci90": [
+       -0.07040701035171651,
+       0.0016491594433892345
+      ],
+      "exposure": 288
+     },
+     "finance": {
+      "mean": -0.01162971253247088,
+      "ci90": [
+       -0.035128231421097174,
+       0.011474486899287291
+      ],
+      "exposure": 224
+     },
+     "travel": {
+      "mean": -0.028840529338897605,
+      "ci90": [
+       -0.062093454207308905,
+       0.0030522630528037223
+      ],
+      "exposure": 256
+     },
+     "vehicle": {
+      "mean": -0.011350594916764198,
+      "ci90": [
+       -0.04490097078099581,
+       0.02431265008482405
+      ],
+      "exposure": 192
+     }
+    },
+    "p_context_harm": {
+     "files": 0.873,
+     "finance": 0.54,
+     "travel": 0.84,
+     "vehicle": 0.535
+    },
+    "max_p_context_harm": 0.873,
+    "min_p_context_above_bound": null,
+    "harm_rd_mean": 0.017501105853448835,
+    "harm_rd_ci90": [
+     -0.0032497532469736735,
+     0.039415049602990256
+    ],
+    "p_harm_gt_delta": 0.716,
+    "p_harm_lt_bound": 0.731,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": false
+    },
+    "passes": false,
+    "passes_by_prior": {
+     "single": false
+    },
+    "sequencing_ok": false
+   }
+  ],
+  "shortlist": [],
+  "subsets": [],
+  "advanced": [],
+  "sequencing_candidate": null,
+  "rules": {
+   "delta": 0.01,
+   "p_efficacy": 0.9,
+   "context_harm_delta": -0.01,
+   "p_context_harm": 0.1,
+   "harm_delta": 0.01,
+   "p_harm": 0.2,
+   "harm_bound": 0.025,
+   "p_harm_bound": 0.95,
+   "min_exposure": 64,
+   "shortlist": 4,
+   "p_sequencing": 0.5
+  }
+ },
+ "advanced": [],
+ "reask": {
+  "U01": {
+   "rd_mean": -0.024356760536584015
+  },
+  "U02": {
+   "rd_mean": -0.018733287547394742
+  },
+  "U03": {
+   "rd_mean": -0.0005689624604871129
+  },
+  "U04": {
+   "rd_mean": 0.002834452678650713
+  },
+  "U05": {
+   "rd_mean": -0.009612880818693095
+  },
+  "U06": {
+   "rd_mean": -0.005531826255360231
+  },
+  "U07": {
+   "rd_mean": 0.0007092419989548995
+  },
+  "U08": {
+   "rd_mean": 0.0077968282207706565
+  }
+ },
+ "sensitivity": {
+  "prior_x2": {
+   "advanced": []
+  },
+  "weights_sampled": {
+   "advanced": []
+  },
+  "only_base": {
+   "rd_mean": [
+    -0.0223,
+    0.0178,
+    -0.0105,
+    0.0169,
+    -0.0026,
+    0.0015,
+    0.007,
+    -0.0299
+   ]
+  },
+  "only_long_context": {
+   "rd_mean": [
+    0.0126,
+    0.0048,
+    0.0029,
+    -0.0199,
+    -0.0019,
+    -0.0053,
+    0.0082,
+    -0.0037
+   ]
+  }
+ }
+}

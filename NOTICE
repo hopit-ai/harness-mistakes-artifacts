@@ -1,0 +1,24 @@
+Required Notice: Copyright (c) 2026 Hopit AI
+
+This repository (code and data) is licensed under the PolyForm Noncommercial License 1.0.0
+(see LICENSE, or https://polyformproject.org/licenses/noncommercial/1.0.0). You may use,
+copy, modify and share it for any noncommercial purpose, including research, teaching and
+personal study, and by the noncommercial organisations named in that licence.
+
+Commercial use is not licensed. Any commercial use, including use in or for a commercial
+product or service, needs written permission from Hopit AI: <CONTACT — to be filled by the owner>.
+
+Third-party software is not included and keeps its own licence:
+  - tau2-bench (Sierra Research, MIT licence), https://github.com/sierra-research/tau2-bench
+  - BFCL / Berkeley Function Calling Leaderboard (gorilla project, Apache License 2.0),
+    https://github.com/ShishirPatil/gorilla , PyPI bfcl-eval==2026.3.23
+  - numpy (BSD-3-Clause) and matplotlib (matplotlib licence), installed separately.
+The BFCL instance identifiers in data/ (e.g. multi_turn_base_12) refer to items of the public
+BFCL v4 multi-turn data set; no BFCL data or code is copied here.
+
+The partner kits used to run the experiments are published separately under the MIT licence
+at https://github.com/hopit-ai/self-learning-harness-kit (tags listed in README.md); this
+licence does not change theirs. A few small helpers here are copies of kit code by the same
+copyright holder (paper1/bfcl/data.py, paper1/bfcl/plan_min.py, paper1/fgate/pool.py and the
+inclusion-vector helper in paper1/fgate/design.py); the MIT-licensed originals remain available
+in the kit.

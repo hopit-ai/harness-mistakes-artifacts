@@ -1,0 +1,30 @@
+{
+ "schema": "paper1-redaction-v1",
+ "about": "The frozen defect lists are hashed in the registry (rows 141 and 142, defect_list_sha256). The copies here differ from the frozen files only as listed; the frozen originals can be checked against these hashes on request.",
+ "files": [
+  {
+   "file": "gate-defects.json",
+   "frozen_sha256": "ee8a020cfe8206d32d40333203a706d55a4d0600bf7c91c5e142e3602d5d19aa",
+   "redacted_sha256": "d301bb2c363e084c545a239e4680b9f97b6c74c2a03048c6f9f57d1570b35c47",
+   "registry_event": "bfcl_audit_freeze_gate",
+   "change": "32 mapping keys (the file names of the two blinded reviewers' label and result files, in 'inputs_sha256' and 'superseded_rounds[].results_sha256') renamed to 'reviewer-A..'/'reviewer-B..'; all values unchanged",
+   "serialization": {
+    "indent": 1,
+    "sort_keys": true,
+    "trailing_newline": true
+   }
+  },
+  {
+   "file": "test-defects.json",
+   "frozen_sha256": "dbe6319645fe38aa670432033a94879b92e130aad924339dced83c20ffc52d4e",
+   "redacted_sha256": "bddf0e17706c60631b19e760cf9eb388d66eea2c88690adba771a2dfdffe1ee7",
+   "registry_event": "bfcl_audit_freeze_test",
+   "change": "60 mapping keys (the file names of the two blinded reviewers' label and result files, in 'inputs_sha256' and 'superseded_rounds[].results_sha256') renamed to 'reviewer-A..'/'reviewer-B..'; all values unchanged",
+   "serialization": {
+    "indent": 1,
+    "sort_keys": true,
+    "trailing_newline": true
+   }
+  }
+ ]
+}

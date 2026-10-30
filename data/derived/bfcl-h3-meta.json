@@ -1,0 +1,9 @@
+{
+ "design": "registered",
+ "empty_arms": [
+  "FPRIME"
+ ],
+ "package_sha256": "254044ee0f62c28a666ee573a13b1a596b022ddfedc84f376249565997e4b680",
+ "rows": 5760,
+ "rows_sha256": "046ca37d29d9b501ce34210f64a5e8e0763a084b616ec26dd7f3ac1a0ac65e4d"
+}

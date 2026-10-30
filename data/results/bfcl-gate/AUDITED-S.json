@@ -1,0 +1,320 @@
+{
+ "schema": "xp-bfcl-fprime-audited-sensitivity-v1",
+ "use": "audited sensitivity \u2014 not used for selection",
+ "pool": "S",
+ "pool_sha256": "735bd4d2bc6ffb1028d2fc425984a349ae38c97bab993ffc1b4624204d85a588",
+ "defect_list_sha256": "ee8a020cfe8206d32d40333203a706d55a4d0600bf7c91c5e142e3602d5d19aa",
+ "definition": "defective = score_changing yes AND severity clear (rubric v2)",
+ "dropped": {
+  "instances": [
+   "multi_turn_base_103",
+   "multi_turn_base_12",
+   "multi_turn_base_123",
+   "multi_turn_base_14",
+   "multi_turn_base_141",
+   "multi_turn_base_146",
+   "multi_turn_base_152",
+   "multi_turn_base_162",
+   "multi_turn_base_168",
+   "multi_turn_base_195",
+   "multi_turn_base_199",
+   "multi_turn_base_24",
+   "multi_turn_base_39",
+   "multi_turn_base_45",
+   "multi_turn_base_52",
+   "multi_turn_base_7",
+   "multi_turn_base_72",
+   "multi_turn_base_78",
+   "multi_turn_base_81",
+   "multi_turn_base_95",
+   "multi_turn_long_context_103",
+   "multi_turn_long_context_12",
+   "multi_turn_long_context_123",
+   "multi_turn_long_context_14",
+   "multi_turn_long_context_141",
+   "multi_turn_long_context_146",
+   "multi_turn_long_context_150",
+   "multi_turn_long_context_151",
+   "multi_turn_long_context_152",
+   "multi_turn_long_context_162",
+   "multi_turn_long_context_168",
+   "multi_turn_long_context_195",
+   "multi_turn_long_context_199",
+   "multi_turn_long_context_24",
+   "multi_turn_long_context_39",
+   "multi_turn_long_context_45",
+   "multi_turn_long_context_52",
+   "multi_turn_long_context_7",
+   "multi_turn_long_context_72",
+   "multi_turn_long_context_78",
+   "multi_turn_long_context_81",
+   "multi_turn_long_context_95"
+  ],
+  "roots_with_both_instances": [
+   7,
+   12,
+   14,
+   24,
+   39,
+   45,
+   52,
+   72,
+   78,
+   81,
+   95,
+   103,
+   123,
+   141,
+   146,
+   152,
+   162,
+   168,
+   195,
+   199
+  ],
+  "rows": 630
+ },
+ "weighting": "registered fprime.analyse estimator unchanged: families weighted equally, instances equally within family; equals equal roots in the primary (every root has both instances); after exclusions a root keeping one instance carries half the weight of a root keeping both (plan s. 6.4 clarification 2026-10-22)",
+ "refit": {
+  "rows": 270,
+  "instances": 18,
+  "contexts": [
+   "files",
+   "finance",
+   "travel",
+   "vehicle"
+  ],
+  "anchors": {
+   "files": {
+    "n": 4,
+    "success": 0.25
+   },
+   "finance": {
+    "n": 6,
+    "success": 1.0
+   },
+   "travel": {
+    "n": 4,
+    "success": 0.25
+   },
+   "vehicle": {
+    "n": 4,
+    "success": 0.75
+   }
+  },
+  "rules": {
+   "delta": 0.01,
+   "p_efficacy": 0.9,
+   "context_harm_delta": -0.01,
+   "p_context_harm": 0.1,
+   "harm_delta": 0.01,
+   "p_harm": 0.2,
+   "harm_bound": 0.025,
+   "p_harm_bound": 0.95,
+   "min_exposure": 64,
+   "shortlist": 4,
+   "p_sequencing": 0.5
+  },
+  "advanced_descriptive": [],
+  "shortlist_descriptive": []
+ },
+ "primary": {
+  "schema": "xp-bfcl-fprime-report-v1",
+  "advanced": [
+   "S01"
+  ],
+  "rows": 900,
+  "instances": 60
+ },
+ "lessons": {
+  "S01": {
+   "audited": {
+    "rd_mean": 0.038658127857814334,
+    "rd_ci90": [
+     -0.004469483250087409,
+     0.08268765713352907
+    ],
+    "p_rd_gt_delta": 0.87,
+    "p_rd_gt_0": 0.928,
+    "harm_rd_mean": -0.02478161195496505,
+    "p_harm_gt_delta": 0.069,
+    "checks": {
+     "E1": false,
+     "E2": false,
+     "E3": false,
+     "E4": true
+    },
+    "passes": false
+   },
+   "audited_exposure_by_family": {
+    "files": 28,
+    "finance": 42,
+    "travel": 28,
+    "vehicle": 28
+   },
+   "primary": {
+    "rd_mean": 0.049269749796625746,
+    "rd_ci90": [
+     0.018953880271817533,
+     0.07951069433259715
+    ],
+    "p_rd_gt_delta": 0.988,
+    "p_rd_gt_0": 0.999,
+    "harm_rd_mean": -0.04994463619924201,
+    "p_harm_gt_delta": 0.0,
+    "checks": {
+     "E1": true,
+     "E2": true,
+     "E3": true,
+     "E4": true
+    },
+    "passes": true
+   }
+  },
+  "S02": {
+   "audited": {
+    "rd_mean": -0.011917440804907767,
+    "rd_ci90": [
+     -0.05402689460166762,
+     0.028331773975481346
+    ],
+    "p_rd_gt_delta": 0.199,
+    "p_rd_gt_0": 0.317,
+    "harm_rd_mean": 0.007753915438640728,
+    "p_harm_gt_delta": 0.46,
+    "checks": {
+     "E1": false,
+     "E2": false,
+     "E3": false,
+     "E4": false
+    },
+    "passes": false
+   },
+   "audited_exposure_by_family": {
+    "files": 28,
+    "finance": 42,
+    "travel": 28,
+    "vehicle": 28
+   },
+   "primary": {
+    "rd_mean": -0.008925172816424323,
+    "rd_ci90": [
+     -0.037738602645047,
+     0.020641374305684246
+    ],
+    "p_rd_gt_delta": 0.145,
+    "p_rd_gt_0": 0.298,
+    "harm_rd_mean": 0.007520410132717213,
+    "p_harm_gt_delta": 0.423,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": false
+    },
+    "passes": false
+   }
+  },
+  "S03": {
+   "audited": {
+    "rd_mean": 0.020846451678407818,
+    "rd_ci90": [
+     -0.020701514758420133,
+     0.06510797504579642
+    ],
+    "p_rd_gt_delta": 0.661,
+    "p_rd_gt_0": 0.792,
+    "harm_rd_mean": -0.025260471973376938,
+    "p_harm_gt_delta": 0.062,
+    "checks": {
+     "E1": false,
+     "E2": false,
+     "E3": false,
+     "E4": true
+    },
+    "passes": false
+   },
+   "audited_exposure_by_family": {
+    "files": 28,
+    "finance": 42,
+    "travel": 28,
+    "vehicle": 28
+   },
+   "primary": {
+    "rd_mean": 0.017051626564947103,
+    "rd_ci90": [
+     -0.011969686206911575,
+     0.0473323713935865
+    ],
+    "p_rd_gt_delta": 0.654,
+    "p_rd_gt_0": 0.826,
+    "harm_rd_mean": -0.02535241776666393,
+    "p_harm_gt_delta": 0.025,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": true
+    },
+    "passes": false
+   }
+  },
+  "S04": {
+   "audited": {
+    "rd_mean": -6.579904385284724e-05,
+    "rd_ci90": [
+     -0.04053000473166325,
+     0.041058505077765296
+    ],
+    "p_rd_gt_delta": 0.326,
+    "p_rd_gt_0": 0.505,
+    "harm_rd_mean": -0.009029476024334075,
+    "p_harm_gt_delta": 0.198,
+    "checks": {
+     "E1": false,
+     "E2": false,
+     "E3": false,
+     "E4": false
+    },
+    "passes": false
+   },
+   "audited_exposure_by_family": {
+    "files": 28,
+    "finance": 42,
+    "travel": 28,
+    "vehicle": 28
+   },
+   "primary": {
+    "rd_mean": -0.01170672707231289,
+    "rd_ci90": [
+     -0.04148540861920689,
+     0.016282869996724004
+    ],
+    "p_rd_gt_delta": 0.105,
+    "p_rd_gt_0": 0.25,
+    "harm_rd_mean": -0.0019861722120607032,
+    "p_harm_gt_delta": 0.245,
+    "checks": {
+     "E1": false,
+     "E2": true,
+     "E3": false,
+     "E4": false
+    },
+    "passes": false
+   }
+  }
+ },
+ "defective_only_descriptive": {
+  "B1_anchor": {
+   "episodes": 42,
+   "instances": 42,
+   "success": 0.5476190476190477
+  },
+  "draws_pool_S": {
+   "episodes": 588,
+   "instances": 42,
+   "success": 0.5833333333333334
+  }
+ },
+ "table_sha256": "0c5c7835eb3a346aeed3b5953076a2e89c7b806ed339659551a62e57dd437875"
+}
