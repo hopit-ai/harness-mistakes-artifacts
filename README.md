@@ -89,20 +89,17 @@ files` checks it); **rebuilt** = figure regenerated and compared byte for byte.
 | Official τ², learned − B1, pass^1 (§5.3, Table 8) | −1.3 [−5.9, +3.3] | `data/results/official-tau2/score.json` | `python reproduce.py` | read |
 | BFCL gate: nothing from U advanced; S01 from S; S01 vs empty (§7.5, Table 11) | +4.7 [+1.8, +7.7] | `data/results/bfcl-gate/FPRIME-{U,S}.json` | `python reproduce.py` | read |
 | BFCL gate: B1 anchor (§7.5) | 56.7% (34 of 60) | `data/results/bfcl-gate/FPRIME-S.json` | `python reproduce.py` | recomputed |
-| τ² F′ gate, L07 / L10 (§8, Table 15) | +4.7 [+4.0, +5.4] / +2.7 [+2.0, +3.4] | `data/results/tau2-gate/h1b-results-2026-10-24.md` | `python reproduce.py` | read* |
-| τ² F′ gate, joint {L07, L10} (§8) | +7.4 [+6.3, +8.4] | same | `python reproduce.py` | read* |
-| RBC comparator set (§8, App. L) | L07, L10, L03, L06 | same | `python reproduce.py` | read* |
+| τ² F′ gate, L07 / L10 (§8, Table 15) | +4.7 [+4.0, +5.4] / +2.7 [+2.0, +3.4] | `data/results/tau2-gate/h1b-results-2026-10-24.md`, `data/derived/tau2-fgate-table.jsonl` | `python reproduce.py` | recomputed (and read) |
+| τ² F′ gate, joint {L07, L10} (§8) | +7.4 [+6.3, +8.4] | same | `python reproduce.py` | recomputed (and read) |
+| RBC comparator set (§8, App. L) | L07, L10, L03, L06 | same | `python reproduce.py` | recomputed (and read) |
 | BFCL H3 P2, B1 − SEARCH (§7.7, Table 13) | +0.31 [−3.12, +3.65], Holm p 1.000 | `bfcl/confirm.py`, `data/derived/bfcl-h3-rows.jsonl` (5,760 episodes) | `python reproduce.py` | recomputed (and read) |
 | BFCL H3 P3, B1 − UNGATED (§7.7, Table 13) | −0.52 [−4.38, +3.33] | same | `python reproduce.py` | recomputed (and read) |
 | BFCL H3 P2, audited (§7.7) | +6.0 [+0.2, +12.0], Holm p 0.149 | same + `data/bfcl-audit/test-defects.json` | `python reproduce.py` | recomputed (and read) |
 | Figures 1, 2 and J1 | — | `figures/make_fig*.py`, `data/results/` | `python reproduce.py` | rebuilt |
 
-\* Read in this version: the τ² decision table is not yet in `data/derived/`. When
-`tools/export_derived.py tau2-gate` has added it, `reproduce.py` refits the τ² gate (1,000
-draws, sensitivities on, as registered) and checks these numbers as recomputed.
+The τ² gate is refitted from `data/derived/tau2-fgate-table.jsonl` (1,000 draws, sensitivities on, as registered).
 
-**Result of `python reproduce.py` on 2026-10-30:** 24 of 24 checks pass (9 recomputed,
-12 read, 3 rebuilt figures; the H3 contrasts are both read and recomputed) (Python 3.13.5,
+**Result of `python reproduce.py` on 2026-10-30:** 27 of 27 checks pass (the τ² gate and BFCL H3 numbers recomputed from the derived tables). (Python 3.13.5,
 numpy 2.3.5, matplotlib 3.10.8, macOS arm64). All three figures are byte-identical to the
 paper's. `python -m pytest -q`: 30 passed (also with Python 3.12.11 and numpy 2.5.3). The
 full registry chain (164 rows, 305,023 bytes, head `5fd92773…6dc6b`) was verified with
@@ -140,10 +137,8 @@ The scored tables and exports are not in this repository (next section).
 - **Raw episodes and private task data.** No agent trajectories, prompts or conversations; no
   answer keys, gold decisions or private test membership; nothing from the synthetic retail
   database extension. The τ² decision tables were scored with private keys.
-- **The τ² F′ decision table** (20,400 decisions) is not included yet, so the τ² gate numbers
-  are *read* from the reported results. `tools/export_derived.py tau2-gate` writes it (outcomes,
-  inclusion bits and order-preserving pseudonymous ids only); `reproduce.py` then recomputes
-  them. The BFCL H3 episode outcomes are included (`data/derived/bfcl-h3-rows.jsonl`: arm,
+- **The τ² F′ decision table** is included as `data/derived/tau2-fgate-table.jsonl` (outcomes,
+  inclusion bits and order-preserving pseudonymous ids only; no task text or answers). The BFCL H3 episode outcomes are included (`data/derived/bfcl-h3-rows.jsonl`: arm,
   trial, public BFCL instance id, root, category, success, harm; no trajectories) and the H2
   episode table is not (the H2 gate reports are shipped).
 - **Partner-kit material** is not duplicated: run code, packages, plans, pools and units are in
