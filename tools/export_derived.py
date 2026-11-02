@@ -4,11 +4,11 @@
 Not run for this release: the tables are added only after the owner decides to publish them
 (README, "What is not here"). Output columns are the analysis inputs and nothing else.
 
-    # τ² F' gate: the scored decision table and the hand-off pool (public in kit tag xp-h1b-v1)
+    # τ² F' gate: the scored decision table and the hand-off pool (experiment kit tag xp-h1b-v1; kits private, on request)
     python tools/export_derived.py tau2-gate --table W/table.jsonl --pool PKG-H1/pool.json \
         --out data/derived
 
-    # BFCL held-out confirmation: the H3 package (public in kit tag xp-h3b-v1) and its export
+    # BFCL held-out confirmation: the H3 package (experiment kit tag xp-h3b-v1) and its export
     python tools/export_derived.py bfcl-h3 --package PKG-H3 --export EXPORT-H3 --out data/derived
 
 What is kept

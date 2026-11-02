@@ -136,12 +136,21 @@ def bfcl_gate() -> None:
     got = (f"U advanced {u['advanced'] or 'none'} of {len(u['gate']['lessons'])}; "
            f"S advanced {s['advanced']}; S01 vs empty {pts(sub['exact_vs_empty_rd_mean'])} "
            f"{ci(*sub['exact_vs_empty_ci90'])}")
+    a = json.loads((RES / "bfcl-gate/AUDITED-S.json").read_text())["lessons"]["S01"]
+    est = (f"{pts(a['primary']['rd_mean'])} {ci(*a['primary']['rd_ci90'])}; audited "
+           f"{pts(a['audited']['rd_mean'])} {ci(*a['audited']['rd_ci90'])}")
+    lesson = [x for x in s["gate"]["lessons"] if x["id"] == "S01"][0]
+    got += f"; S01 estimate {est}"
     ok = (u["advanced"] == [] and len(u["gate"]["lessons"]) == 8 and s["advanced"] == ["S01"]
           and f"{pts(sub['exact_vs_empty_rd_mean'])} {ci(*sub['exact_vs_empty_ci90'])}"
-          == "+4.7 [+1.8, +7.7]")
-    check("BFCL gate (H2): advanced lessons; S01 alone vs the empty library",
-          "none of 8 U lessons; S01 from S; +4.7 [+1.8, +7.7]", got, ok, "read",
-          "data/results/bfcl-gate/FPRIME-{U,S}.json")
+          == "+4.7 [+1.8, +7.7]"
+          and lesson["rd_mean"] == a["primary"]["rd_mean"]
+          and est == "+4.9 [+1.9, +8.0]; audited +3.9 [-0.4, +8.3]")
+    check("BFCL gate (H2): advanced lessons; S01 alone vs the empty library; S01 estimate, "
+          "primary and audited (points, 90% CrI)",
+          "none of 8 U lessons; S01 from S; +4.7 [+1.8, +7.7]; S01 +4.9 [+1.9, +8.0], "
+          "audited +3.9 [−0.4, +8.3]", got, ok, "read",
+          "data/results/bfcl-gate/FPRIME-{U,S}.json, AUDITED-S.json")
     anchors = sum(v["n"] * v["success"] for v in s["anchors"].values())
     n = sum(v["n"] for v in s["anchors"].values())
     check("BFCL gate: B1 anchor success", "56.7% (34 of 60)",

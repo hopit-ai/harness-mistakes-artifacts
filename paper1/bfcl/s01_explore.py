@@ -184,8 +184,8 @@ def rescore(package: Path, run: Path, out: Path, variants: tuple[str, ...],
     from bfcl_eval.eval_checker.multi_turn_eval import multi_turn_utils as MU
 
     from paper1.bfcl import data
-    from slh.xp.bfcl import handler as H  # public kit (hopit-ai/self-learning-harness-kit), only to read raw hand-off files
-    from slh.xp.bfcl.runner import FakeClient  # public kit (hopit-ai/self-learning-harness-kit), only to read raw hand-off files
+    from slh.xp.bfcl import handler as H  # experiment kit (private, available on request), only to read raw hand-off files
+    from slh.xp.bfcl.runner import FakeClient  # experiment kit (private, available on request), only to read raw hand-off files
 
     os.environ["BFCL_PROJECT_ROOT"] = str(work)
     work.mkdir(parents=True, exist_ok=True)

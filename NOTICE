@@ -16,9 +16,8 @@ Third-party software is not included and keeps its own licence:
 The BFCL instance identifiers in data/ (e.g. multi_turn_base_12) refer to items of the public
 BFCL v4 multi-turn data set; no BFCL data or code is copied here.
 
-The partner kits used to run the experiments are published separately under the MIT licence
-at https://github.com/hopit-ai/self-learning-harness-kit (tags listed in README.md); this
-licence does not change theirs. A few small helpers here are copies of kit code by the same
-copyright holder (paper1/bfcl/data.py, paper1/bfcl/plan_min.py, paper1/fgate/pool.py and the
-inclusion-vector helper in paper1/fgate/design.py); the MIT-licensed originals remain available
-in the kit.
+The experiment kits used to run the experiments are kept in a separate, private repository
+(tags listed in README.md; available on request: arkid@hopit.ai) and are not covered by this
+licence. A few small helpers here are copies of kit code by the same copyright holder
+(paper1/bfcl/data.py, paper1/bfcl/plan_min.py, paper1/fgate/pool.py and the inclusion-vector
+helper in paper1/fgate/design.py); in this repository they are licensed as above.

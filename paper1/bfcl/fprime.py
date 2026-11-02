@@ -241,7 +241,7 @@ def main(argv: list[str] | None = None) -> int:
     args = ap.parse_args(argv)
     if args.cmd == "table":
         from paper1.bfcl import plan_min as P
-        from slh.xp.bfcl import runner as R  # public kit (hopit-ai/self-learning-harness-kit), only to read raw hand-off files
+        from slh.xp.bfcl import runner as R  # experiment kit (private, available on request), only to read raw hand-off files
 
         pkg = P.check_seal(json.loads((args.package / "plan.json").read_text()), "plan")
         outcomes = R.read_outcomes(args.export)
@@ -260,7 +260,7 @@ def main(argv: list[str] | None = None) -> int:
         args.out.write_text(json.dumps(rep, indent=1, default=float))
         print(json.dumps({"advanced": rep["advanced"]}))
         return 0
-    from slh.xp.bfcl import splits  # public kit (hopit-ai/self-learning-harness-kit), only to read raw hand-off files
+    from slh.xp.bfcl import splits  # experiment kit (private, available on request), only to read raw hand-off files
 
     fams = gate_families(splits.load(recompute=False))
     t0 = time.time()

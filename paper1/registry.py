@@ -1,4 +1,4 @@
-"""The paper-1 subset of the project's hash-chained pre-registration registry.
+"""This paper's subset of the project's hash-chained pre-registration registry.
 
 The project keeps one append-only registry (``REGISTRY.jsonl``). Every row carries
 ``prev_sha256``, the SHA-256 of *all registry bytes before it*, and a sidecar head records
@@ -6,8 +6,8 @@ the length and SHA-256 of the whole file. Editing or deleting any earlier row br
 
 This release ships (``data/registry/``):
 
-- ``paper1-rows.jsonl``: the paper-1 rows, byte-identical to the registry lines;
-- ``paper1-rows-redacted.jsonl``: three paper-1 rows with private local paths or internal
+- ``paper1-rows.jsonl``: this paper's rows, byte-identical to the registry lines;
+- ``paper1-rows-redacted.jsonl``: three of this paper's rows with private local paths or internal
   reviewer names replaced (each carries a ``_redacted`` note with the source line's hash);
 - ``INDEX.json``: one entry per registry row (all 164): offset, length, the line's SHA-256,
   the ``prev_sha256`` recorded in it and whether it is shipped verbatim, redacted or withheld;
@@ -62,7 +62,7 @@ def _lines(path: Path) -> list[bytes]:
 
 
 def shipped_rows(reg_dir: Path = REG_DIR) -> list[dict[str, Any]]:
-    """Every shipped paper-1 row (verbatim and redacted), in registry order, each with its
+    """Every shipped row of this paper (verbatim and redacted), in registry order, each with its
     registry row number under ``_row``."""
     idx = index(reg_dir)
     verb = [e for e in idx["rows"] if e["shipped"] == "verbatim"]

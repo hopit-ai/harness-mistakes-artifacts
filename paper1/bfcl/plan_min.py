@@ -1,6 +1,6 @@
 """The BFCL plan helpers the analysis needs (trimmed copy of the kit's ``slh.xp.bfcl.plan``):
 content seals and the lesson-pool format. Building hand-off plans is not part of this release
-(the built plans are public in the partner kit tags)."""
+(the built plans are in the private experiment kits, available on request)."""
 
 from __future__ import annotations
 
