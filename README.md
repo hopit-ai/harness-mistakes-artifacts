@@ -130,7 +130,7 @@ The scored tables and exports are not in this repository (next section).
 ## What is not here
 
 - **The system the experiments ran on stays private** and is available on request
-  (`<CONTACT — to be filled by the owner>`): the agent harness and runtime, the safety layer,
+  (`arkid@hopit.ai`): the agent harness and runtime, the safety layer,
   the host adapters, the learning loop and writers, the small trained components, the checker
   study, and the project's internal scoring pipeline. None of it is needed to check the
   numbers above, and none of the shipped code imports it.
