@@ -1,10 +1,10 @@
-# Paper 1 artefacts: learning from its own traces, frozen 9B agent
+# Paper 1 artefacts: Can Harnesses Learn From Their Own Mistakes?
 
 Code and data to check the registered numbers of
 
-> **Does Learning from Its Own Traces Help a Frozen 9B Agent? Registered Decompositions on
-> τ²-bench Retail and BFCL Multi-Turn.** Arkid Mitra (Hopit AI), 2026.
-> arXiv: `<ARXIV-ID — to be filled>`
+> **Can Harnesses Learn From Their Own Mistakes?** Arkid Mitra (Hopit AI), 2026.
+> Short paper (5 pages); an extended technical report with all registered analyses is available
+> from the author. arXiv link: to be added on posting.
 
 The paper asks whether lessons written from a frozen Qwen3.5-9B agent's own failures help it
 more than a matched search that never sees the failures. It answers with registered
@@ -214,10 +214,9 @@ in the paper and its appendices.
 
 ```bibtex
 @misc{mitra2026traces,
-  title  = {Does Learning from Its Own Traces Help a Frozen 9B Agent? Registered Decompositions
-            on tau2-bench Retail and BFCL Multi-Turn},
+  title  = {Can Harnesses Learn From Their Own Mistakes?},
   author = {Mitra, Arkid},
   year   = {2026},
-  note   = {Hopit AI. arXiv:<ARXIV-ID>}
+  note   = {Hopit AI. arXiv link to be added}
 }
 ```
