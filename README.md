@@ -26,7 +26,7 @@ Licence: [PolyForm Noncommercial 1.0.0](LICENSE). Commercial use needs permissio
 ```bash
 python -m venv .venv && . .venv/bin/activate
 pip install "numpy>=2" "matplotlib==3.10.8" pytest   # matplotlib only for the figures
-python reproduce.py          # 24 checks; writes REPRODUCTION.json; exit 0 if all pass
+python reproduce.py          # 27 checks; writes REPRODUCTION.json; exit 0 if all pass
 python -m pytest -q          # 30 tests of the analysis code on synthetic data
 ```
 
