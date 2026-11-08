@@ -1,7 +1,7 @@
 [project]
 name = "paper1"
 version = "1.0.0"
-description = "Analysis code and data behind the registered numbers of 'Can Harnesses Learn From Their Own Mistakes?' (frozen 9B agent, tau2-bench retail and BFCL multi-turn)"
+description = "Analysis code and data behind the registered numbers of 'Agent Self-Improvement with Frozen Weights: The Added Value and Limits of Failure Traces' (frozen 9B agent, tau2-bench retail and BFCL multi-turn)"
 requires-python = ">=3.12"
 license = { file = "LICENSE" }
 dependencies = ["numpy>=2.0"]

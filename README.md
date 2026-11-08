@@ -1,9 +1,9 @@
-# Artefacts for "Can Harnesses Learn From Their Own Mistakes?"
+# Artefacts for "Agent Self-Improvement with Frozen Weights: The Added Value and Limits of Failure Traces"
 
 Code and data to check the registered numbers of
 
-> **Can Harnesses Learn From Their Own Mistakes?** Arkid Mitra (Hopit AI), 2026.
-> Short paper (5 pages); an extended technical report with all registered analyses is available
+> **Agent Self-Improvement with Frozen Weights: The Added Value and Limits of Failure Traces** Arkid Mitra (Hopit AI), 2026.
+> Short paper (6 pages incl. references); an extended technical report with all registered analyses is available
 > from the author. arXiv link: to be added on posting.
 
 The paper asks whether lessons written from a frozen Qwen3.5-9B agent's own failures help it
@@ -227,7 +227,7 @@ in the paper and its appendices.
 
 ```bibtex
 @misc{mitra2026traces,
-  title  = {Can Harnesses Learn From Their Own Mistakes?},
+  title  = {Agent Self-Improvement with Frozen Weights: The Added Value and Limits of Failure Traces},
   author = {Mitra, Arkid},
   year   = {2026},
   note   = {Hopit AI. Code and data: \url{https://github.com/hopit-ai/harness-mistakes-artifacts}.
