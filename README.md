@@ -2,9 +2,9 @@
 
 Code and data to check the registered numbers of
 
-> **Agent Self-Improvement with Frozen Weights: The Added Value and Limits of Failure Traces** Arkid Mitra (Hopit AI), 2026.
+> **Agent Self-Improvement with Frozen Weights: The Added Value and Limits of Failure Traces** Arkid Mitra (Hopit AI), Snehil Saluja (Overlayy), 2026.
 > Short paper (6 pages incl. references); an extended technical report with all registered analyses is available
-> from the author. arXiv link: to be added on posting.
+> from the authors. arXiv link: to be added on posting.
 
 The paper asks whether lessons written from a frozen Qwen3.5-9B agent's own failures help it
 more than a matched search that never sees the failures. It answers with registered
@@ -228,9 +228,9 @@ in the paper and its appendices.
 ```bibtex
 @misc{mitra2026traces,
   title  = {Agent Self-Improvement with Frozen Weights: The Added Value and Limits of Failure Traces},
-  author = {Mitra, Arkid},
+  author = {Mitra, Arkid and Saluja, Snehil},
   year   = {2026},
-  note   = {Hopit AI. Code and data: \url{https://github.com/hopit-ai/harness-mistakes-artifacts}.
+  note   = {Hopit AI and Overlayy. Code and data: \url{https://github.com/hopit-ai/harness-mistakes-artifacts}.
             arXiv link to be added}
 }
 ```
